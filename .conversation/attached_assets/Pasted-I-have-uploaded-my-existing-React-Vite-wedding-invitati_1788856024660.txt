@@ -1,0 +1,574 @@
+I have uploaded my existing React + Vite wedding invitation project.
+
+IMPORTANT:
+This is MY existing project and I have already spent time designing and building it.
+
+DO NOT rebuild the website from scratch.
+
+Your role is to act like a senior UI/UX developer reviewing and carefully improving a student's existing project — NOT like an AI website generator creating a new template.
+
+The final website must still feel like MY work, just more polished, thoughtful, interactive and professional.
+
+==================================================
+1. MOST IMPORTANT RULE — DO NOT TOUCH MY IMAGES
+==================================================
+
+I have intentionally selected all the images myself.
+
+DO NOT:
+- replace any image
+- generate new images
+- edit any image
+- crop any image
+- recolor any image
+- apply filters that visibly alter the image
+- compress or optimize the image files
+- rename image files
+- move image files
+- delete image files
+- replace images with placeholders
+- download images from the internet
+- add stock images
+- add AI-generated images
+
+Do NOT modify anything inside:
+
+src/assets/
+
+Keep every existing image exactly as it is.
+
+Keep all existing image imports and paths working.
+
+The visual improvement must happen AROUND my existing images, not by changing the images.
+
+==================================================
+2. DO NOT DESTROY MY EXISTING WORK
+==================================================
+
+Before changing anything:
+
+1. Inspect the complete project structure.
+2. Read the existing React components.
+3. Read the existing CSS.
+4. Understand the current GSAP/ScrollTrigger animations.
+5. Understand how the images are imported.
+6. Understand the current section structure.
+7. Preserve the existing functionality.
+
+Do NOT rewrite everything unnecessarily.
+
+Make improvements incrementally.
+
+If something already works well, leave it alone.
+
+Do not change things simply for the sake of changing them.
+
+==================================================
+3. THE MAIN DESIGN DIRECTION
+==================================================
+
+The website is a magical, romantic wedding invitation.
+
+The atmosphere should feel:
+
+- cinematic
+- mysterious
+- elegant
+- intimate
+- dreamy
+- romantic
+- slightly magical
+- premium
+- handcrafted
+- sophisticated
+
+The inspiration is an enchanted forest / fantasy atmosphere.
+
+IMPORTANT:
+
+This should be INSPIRED by magical fantasy aesthetics, NOT a direct Harry Potter copy.
+
+Do NOT add:
+- Hogwarts logos
+- Harry Potter characters
+- Harry Potter house logos
+- copied Harry Potter UI
+- copyrighted Harry Potter graphics
+- recognizable movie assets
+
+The current concept should remain original.
+
+==================================================
+4. VERY IMPORTANT — MAKE IT LOOK HUMAN-MADE
+==================================================
+
+This is a student's internship project.
+
+I specifically DO NOT want the website to look AI-generated.
+
+Avoid the common "AI website" aesthetic:
+
+- excessive glassmorphism
+- excessive gradients
+- excessive neon glow
+- huge typography everywhere
+- floating cards everywhere
+- excessive rounded corners
+- generic SaaS-style layouts
+- random decorative elements
+- unnecessary 3D effects
+- too many animations
+- overly perfect symmetrical layouts
+- excessive blur
+- excessive shadows
+- random icons
+- unnecessary badges
+- unnecessary UI components
+- template-like sections
+
+Do NOT make every element animate.
+
+Do NOT make everything glow.
+
+Do NOT make everything move.
+
+Do NOT add effects just because they are technically possible.
+
+Use restraint.
+
+The website should feel like a real designer/developer made deliberate choices.
+
+A little imperfection and variation in spacing/layout is okay if it makes the design feel more natural.
+
+==================================================
+5. KEEP THE CURRENT VISUAL LANGUAGE
+==================================================
+
+Keep the existing color direction:
+
+- deep green
+- black
+- dark teal
+- blue/teal atmospheric glow
+- warm gold
+- cream/off-white
+
+Do not suddenly introduce bright colors.
+
+Do not redesign the color palette completely.
+
+Use gold mainly for:
+- small labels
+- lines
+- borders
+- highlights
+- interactive states
+
+Use cream for important typography.
+
+Keep backgrounds dark and atmospheric.
+
+==================================================
+6. HERO / FOREST OPENING
+==================================================
+
+The existing forest image MUST remain completely unchanged.
+
+The forest is the opening experience.
+
+Improve only the surrounding UI and animation.
+
+Make the opening feel immersive through subtle:
+
+- typography
+- particles/fireflies
+- lighting
+- scroll interaction
+- depth
+- pacing
+- transitions
+
+The existing scroll-driven forest transition should remain.
+
+Improve it only if necessary.
+
+The "Scroll to enter" interaction should feel elegant and intentional.
+
+Do not add a giant title covering the forest.
+
+Do not add excessive particles.
+
+Particles should look like subtle magical dust/fireflies rather than a screensaver.
+
+==================================================
+7. SCROLL EXPERIENCE
+==================================================
+
+Scrolling is an important part of this website.
+
+Make the website feel like the user is moving through a story.
+
+Use GSAP/ScrollTrigger where appropriate.
+
+Possible interactions:
+
+- subtle parallax
+- slow image movement
+- text reveal
+- fade/slide transitions
+- scale transitions
+- section-to-section transitions
+- small decorative element movement
+- progress indicators
+
+BUT:
+
+Do not animate everything.
+
+Animations should be:
+
+- slow
+- cinematic
+- subtle
+- purposeful
+
+Avoid:
+- bouncing elements
+- spinning cards
+- excessive zooms
+- aggressive movement
+- constant floating
+- distracting animations
+
+The user should still be able to comfortably read the content.
+
+==================================================
+8. STORY SECTION
+==================================================
+
+Keep the existing title:
+
+"The Beginning of Forever"
+
+Keep the existing story concept.
+
+Do not replace it with a completely different section.
+
+Make it feel more interactive and intentional.
+
+Improve:
+
+- typography hierarchy
+- card composition
+- decorative details
+- spacing
+- scroll reveal
+- subtle background movement
+- transition into the event journey
+
+The existing story background image MUST NOT be modified.
+
+The story should feel like the beginning of a wedding story rather than a generic website card.
+
+==================================================
+9. EVENT JOURNEY
+==================================================
+
+Keep the existing three sections:
+
+01 — Haldi
+02 — Wedding
+03 — Reception
+
+KEEP ALL EXISTING EVENT PHOTOS.
+
+Do not replace them.
+
+Do not modify the image files.
+
+Improve the presentation around them.
+
+Possible improvements:
+
+- layered image composition
+- subtle parallax
+- image reveal animations
+- elegant section numbers
+- better typography
+- better spacing
+- small decorative lines
+- cinematic transitions
+- subtle hover interaction on desktop
+
+Do not turn the event sections into generic cards.
+
+The photos should remain the visual focus.
+
+The layout can have slight variation between sections rather than making all three identical.
+
+==================================================
+10. RSVP SECTION
+==================================================
+
+Keep the current RSVP functionality.
+
+The existing form should continue working.
+
+Improve the visual design of:
+
+- input fields
+- labels
+- radio buttons
+- select field
+- textarea
+- submit button
+- success state
+
+Add subtle interaction such as:
+
+- focus states
+- underline transitions
+- button hover
+- small success animation
+
+Do not add a backend unless absolutely necessary.
+
+The current frontend submission behavior should remain functional.
+
+Do not make the form unnecessarily complicated.
+
+==================================================
+11. RESPONSIVE DESIGN
+==================================================
+
+This is a mobile-first website.
+
+Make it work beautifully on:
+
+- small phones
+- large phones
+- tablets
+- laptops
+- desktop screens
+
+Do not simply shrink the desktop layout.
+
+Use intentional responsive layouts.
+
+Check:
+
+- text wrapping
+- image positioning
+- section spacing
+- button sizes
+- form usability
+- animation behavior
+- overflow
+- viewport height
+- sticky elements
+
+There must be NO horizontal scrolling.
+
+The website should feel designed for mobile rather than merely responsive as an afterthought.
+
+==================================================
+12. TYPOGRAPHY
+==================================================
+
+Keep typography elegant and readable.
+
+Do not use too many fonts.
+
+Maximum 2–3 font families.
+
+Maintain a clear hierarchy between:
+
+- section labels
+- headings
+- body text
+- names
+- buttons
+
+Avoid extremely large headings that take up most of the screen.
+
+Do not use typography effects everywhere.
+
+==================================================
+13. INTERACTION DETAILS
+==================================================
+
+Add small interactions that make the project feel thoughtful.
+
+Examples:
+
+- buttons subtly react when hovered
+- gold lines can animate slightly
+- images can move a few pixels on scroll
+- text can reveal smoothly
+- decorative stars can have very subtle movement
+- RSVP inputs can have elegant focus transitions
+- section numbers can appear as the user enters a section
+
+These should feel like details a developer intentionally implemented.
+
+NOT flashy effects.
+
+==================================================
+14. DO NOT OVERUSE AI-GENERATED DESIGN PATTERNS
+==================================================
+
+Do NOT automatically add:
+
+- glass cards everywhere
+- huge glowing circles
+- floating blobs
+- excessive gradient backgrounds
+- excessive rounded rectangles
+- 3D cards
+- fake statistics
+- unnecessary navigation bars
+- unnecessary menus
+- fake loading screens
+- random icons
+- random illustrations
+- stock assets
+- excessive animations
+
+Every design element must have a reason.
+
+If an element doesn't improve the user's experience, don't add it.
+
+==================================================
+15. KEEP THE PROJECT UNDERSTANDABLE
+==================================================
+
+I am a student and I need to be able to explain this project in an internship interview.
+
+Therefore:
+
+- keep the code readable
+- keep component structure understandable
+- don't create unnecessarily complicated abstractions
+- don't add complicated libraries without a reason
+- don't hide everything inside massive files
+- use clear variable names
+- add short comments for important animation logic
+- keep GSAP animations understandable
+
+I should be able to explain:
+
+"What happens when the user scrolls?"
+
+"How does the forest transition work?"
+
+"How are the event images animated?"
+
+"How does the RSVP state change?"
+
+"How is responsive behavior handled?"
+
+Do not implement something unnecessarily complicated that I cannot reasonably explain.
+
+==================================================
+16. PACKAGE RULE
+==================================================
+
+Use the packages that already exist in the project wherever possible.
+
+GSAP and ScrollTrigger are already being used.
+
+Do NOT install a huge number of new dependencies.
+
+Only add a dependency if it provides a clear benefit and is genuinely necessary.
+
+Prefer React + CSS + JavaScript + GSAP.
+
+==================================================
+17. ACCESSIBILITY + USABILITY
+==================================================
+
+Make sure:
+
+- buttons are keyboard accessible
+- form controls have labels
+- focus states are visible
+- text remains readable against backgrounds
+- animations don't make the site difficult to use
+- reduced-motion preference is respected where possible
+
+Do not sacrifice usability for visual effects.
+
+==================================================
+18. PERFORMANCE
+==================================================
+
+Keep the website reasonably lightweight.
+
+Do not add:
+
+- unnecessary video backgrounds
+- huge libraries
+- unnecessary external assets
+- complicated effects that cause lag
+
+Avoid animation that causes severe performance problems on mobile.
+
+Prefer transform and opacity based animations when possible.
+
+==================================================
+19. BEFORE FINALIZING
+==================================================
+
+After making improvements:
+
+1. Run the project.
+2. Check for build errors.
+3. Check for console errors.
+4. Check every section.
+5. Check every image.
+6. Verify all existing image imports.
+7. Verify RSVP functionality.
+8. Test mobile layout.
+9. Test desktop layout.
+10. Check that there is no horizontal overflow.
+11. Make sure the original forest opening still works.
+12. Make sure the scroll transition still works.
+
+IMPORTANT:
+
+If you encounter an issue with an image, DO NOT replace the image.
+
+Fix the code/path/layout instead.
+
+==================================================
+20. FINAL CREATIVE DIRECTION
+==================================================
+
+Think:
+
+"An ambitious computer engineering student created a magical wedding invitation website and carefully polished the interactions."
+
+NOT:
+
+"An AI generated a fancy wedding website template."
+
+The final website should make someone think:
+
+"This person understands frontend development, UI/UX, animation and visual storytelling."
+
+It should NOT make them think:
+
+"This looks like an AI-generated template."
+
+Keep my original concept.
+Keep my original images.
+Keep my existing work.
+Improve the craftsmanship.
+
+Make thoughtful improvements rather than making the website more complicated.
+
+DO NOT rebuild from scratch.
+DO NOT replace my assets.
+DO NOT change my images.
+
+Improve what is already there.

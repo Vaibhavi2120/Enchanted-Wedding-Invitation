@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap");
+
+:root {
+  --forest-950: #071211;
+  --forest-900: #0b1918;
+  --forest-800: #112422;
+  --forest-700: #193331;
+  --ink: #ebe2ca;
+  --muted: #9fa69c;
+  --dim: #687771;
+  --gold: #d6b96d;
+  --gold-soft: rgba(214, 185, 109, 0.18);
+  --line: rgba(214, 185, 109, 0.27);
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --sans: "DM Sans", "Segoe UI", sans-serif;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--forest-950);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--forest-950);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}

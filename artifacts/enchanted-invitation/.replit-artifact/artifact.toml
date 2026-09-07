@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Enchanted Wedding Invitation"
+description = "A cinematic, story-led wedding invitation for Aarav and Meera, preserving the couple's original imagery while presenting the forest opening, event journey, and RSVP experience with thoughtful motion and responsive polish."
+version = "1.0.0"
+id = "artifacts/enchanted-invitation"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25021
+
+[services.development]
+run = "pnpm --filter @workspace/enchanted-invitation run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/enchanted-invitation", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/enchanted-invitation/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25021"
+BASE_PATH = "/"
